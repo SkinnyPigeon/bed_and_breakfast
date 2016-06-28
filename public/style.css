@@ -1,0 +1,74 @@
+
+body {
+  font-family: monospace;
+  margin-bottom: 700px;
+  background-color: #cff09e;
+  background: linear-gradient(#cff09e, #a8dba8)
+}
+
+form {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.customer {
+  font-weight: bold;
+}
+
+#submit {
+  size: 500px;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  padding-right: 25px;
+}
+
+#gi {
+  display: block;
+  float: left;
+  padding-left: 20px;
+}
+
+#giw {
+  display: block;
+  float: left;
+  padding-top: 10px;
+  padding-right: 60px;
+  padding-left: 20px;
+  font-size: 1.15em;
+}
+
+#cdi {
+  display: block;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 600px;
+}
+
+#cd {
+  display: block;
+  float: left;
+  padding-right: 60px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+
+
+footer {
+  padding-top: 200px;
+  padding-left: 20px;
+}
+

@@ -18,3 +18,12 @@ require_relative('./models/bbw')
     erb(:index)
   end
 
+  get '/contact' do
+    erb(:contact)
+  end
+
+  get '/about_us' do
+    erb(:about_us)
+  end
+
+

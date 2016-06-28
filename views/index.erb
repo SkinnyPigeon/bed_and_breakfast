@@ -3,8 +3,10 @@
 <% @bbws.each do |bbw| %>
   <b>Name: </b>
   <p><%= bbw.pretty_name() %></p>
-  <b>Order: </b>
+  <b>Their Stay: </b>
   <p><%= bbw.nights %> nights in a <%= bbw.room_type %> room</p>
   <p><%= bbw.breakfast %> to breakfast</p>
+  <b>Their Bill: </b>
+  <p>£<%= bbw.total %> </p> 
   <p>-------------------------------</p>
 <% end %>
